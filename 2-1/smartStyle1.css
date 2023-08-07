@@ -1,0 +1,27 @@
+/* ウィンドウ幅が767pxまでの場合 */
+@media screen and (max-width: 767px) {
+    
+    .wrapper {
+    width: 250px;
+    }
+ 
+    .right {
+   width: 100px;
+    }
+}
+
+/* ウィンドウ幅が479pxの場合 */
+@media screen and (max-width: 479px) {
+ 
+    .wrapper {
+        width: 150px;
+    }
+
+    .main {
+        float: none;
+    }
+    
+    .right {
+        width: 150px;
+    }
+}
